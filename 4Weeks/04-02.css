@@ -1,0 +1,22 @@
+table{
+    border:1px solid black;
+}
+
+td{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.tr-1{
+    background-color: blue;
+}
+
+
+/* .tr-2{
+    background-color: yellow;
+}  */
+
+.tr-2 > td{
+    background-color: yellow;
+}

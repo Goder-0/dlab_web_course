@@ -1,0 +1,26 @@
+*{
+    font-size: 30px;
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    height:200px;
+}
+
+.title{
+    height: 100px;
+    background-color: pink;
+}
+
+.num{
+    width: 100px;
+    background-color: antiquewhite;
+}
+
+.pic{
+    width: 400px;
+}
