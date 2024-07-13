@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    border:1px solid black;
+    text-align: center;
+}
+
+td{
+    border:1px solid black;
+    width: 300px;
+    height: 50px;
+}
+
+tr:nth-child(2){
+    background-color: bisque;
+}
+
+tr:nth-child(3){
+    background-color: paleturquoise;
+}
+
+td[colspan]{
+    background-color: aqua;
+}
+
+iframe{
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    border: 1px solid black;
+}
+
+td{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+td[colspan='4']{
+    background-color: bisque;
+}
+td[colspan='8']{
+    background-color: aqua;
+}

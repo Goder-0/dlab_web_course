@@ -1,0 +1,22 @@
+.div-1{
+    width: 200px;
+    height: 200px;
+    background-color: black;   
+    position: relative; 
+}
+
+.div-2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    right:0px;
+}
+
+.div-3{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom:0px;
+}
