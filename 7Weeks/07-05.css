@@ -1,0 +1,67 @@
+html{
+    background-color: orange;
+}
+
+table{
+    background-color: antiquewhite;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 20px;
+    padding: 20px;
+}
+
+td{
+    width: 300px;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+}
+
+input {
+    width: 300px;
+    height:40px;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+}
+
+input[placeholder]{
+    color: black;
+}
+
+input:hover{
+    transform: scale(1.1);
+}
+
+.login{
+    background-color: skyblue;
+}
+
+.signup{
+    background-color: white;
+    color: black;
+}
+
+.find{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.naver{
+    background-color: #1ec800;
+}
+
+.kakao{
+    background-color: #302f28;
+}
+
+.facebook{
+    background-color: blue;
+}
