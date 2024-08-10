@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+.logo{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright-logo{
+    width: 30px;
+    height: 10px;
+    margin-right:5px;
+}
+
+.main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-form input{
+    width: 500px;
+    height: 50px;
+    margin:10px;
+    text-align: start;
+    border: 1px solid rgb(218,213,213);
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.copyright input{
+    border:0;
+    color:gray;
+    margin-bottom: 100px;
+    background-color: #f5f6f7;
+}
+
+
+
+input[value="로그인"]{
+    border:0;
+    background-color: #1fbc02;
+    color:white;
+    text-align: center;
+    padding-left :10px;
+}
+
+body{
+    background-color: #f5f6f7
+}
+
+input:hover{
+    transform: scale(1.1);
+}
